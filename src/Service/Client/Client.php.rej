@@ -1,0 +1,9 @@
+diff a/src/Service/Client/Client.php b/src/Service/Client/Client.php	(rejected hunks)
+@@ -93,6 +93,7 @@
+ 
+             case 500:
+                 $this->response->code = (int) $e->getCode();
++                $this->response->messages = ['Erro: 500' . $e->getMessage()];
+                 unset($this->response->errorCode);
+                 return $this->response;
+                 break;
