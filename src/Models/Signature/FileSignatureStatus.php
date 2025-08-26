@@ -4,8 +4,8 @@ namespace AssinarWeb\Models\Signature;
 
 class FileSignatureStatus
 {
-    private $id;
-    private  $name;
+    public $id;
+    public $name;
 
     public function format($parameters) : FileSignatureStatus
     {
@@ -45,4 +45,5 @@ class FileSignatureStatus
     {
         return $this;
     }
+
 }
