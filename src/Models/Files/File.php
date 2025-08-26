@@ -101,7 +101,7 @@ class File
         return $this->type =  $newType->setFileSignatureType($type);
     }
 
-    public function getStatus(): FileSignatureStatus
+    public function getStatus()
     {
         return $this->status;
     }
@@ -218,4 +218,5 @@ class File
         $this->creationDate = Carbon::parse($parameters->data_criacao)->format("d/m/Y H:i") ?? null;
         return $this;
     }
+
 }
