@@ -22,7 +22,7 @@ class Response extends DefaultModel
      */
     public $messages;
 
-    public function setResponse(int $code, int $errorCode = 0, array $messages)
+    public function setResponse(int $code, int $errorCode = 0, array $messages = [])
     {
         $this->code = $code ?? null;
         $this->messages = $messages ?? null;
@@ -33,4 +33,5 @@ class Response extends DefaultModel
         }
         return $this;
     }
+
 }
