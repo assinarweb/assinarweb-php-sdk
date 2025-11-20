@@ -8,7 +8,7 @@ use AssinarWeb\Api\ApiContext;
 use AssinarWeb\Models\Api\Response;
 use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
 use Symfony\Component\Serializer\Serializer;
-use Tightenco\Collect\Support\Collection;
+use Illuminate\Support\Collection;
 
 class Client
 {

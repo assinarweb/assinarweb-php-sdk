@@ -5,7 +5,7 @@ use AssinarWeb\Service\FileService;
 use AssinarWeb\Models\Files\FilePublishingItem;
 use AssinarWeb\Models\Subscriber\Subscriber;
 use AssinarWeb\Models\Signature\FileSignatureType;
-use Tightenco\Collect\Support\Collection;
+use Illuminate\Support\Collection;
 
 ini_set("display_errors", 1);
 ini_set("display_startup_erros", 1);

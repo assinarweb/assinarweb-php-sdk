@@ -2,7 +2,7 @@
     "name": "assinarweb/assinarweb-php-sdk",
     "type": "library",
     "description": "Integração com API Assinador Web em PHP",
-    "homepage": "https://assinador.linkcertificacao.com.br/",
+    "homepage": "https://assinador.kryptontech.com.br/",
     "keywords": [
         "Assinar Web",
         "composer",
@@ -21,13 +21,13 @@
         "guzzlehttp/guzzle": ">=6.0",
         "symfony/serializer": ">=5.0",
         "symfony/property-access": ">=5.0",
-        "tightenco/collect": ">=7.0",
         "zircote/swagger-php": ">=3.0",
-        "ext-json": "*"
+        "ext-json": "*",
+        "illuminate/collections": "^12.39"
     },
     "require-dev": {
         "phpunit/phpunit": ">=7",
-        "symfony/var-dumper": ">=5.0"
+        "symfony/var-dumper": ">=7.2"
     },
     "autoload": {
         "psr-4": {
